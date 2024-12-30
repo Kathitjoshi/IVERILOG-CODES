@@ -1,0 +1,108 @@
+$date
+	Sun Sep 01 12:28:21 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! sum1 $end
+$var wire 1 " cout1 $end
+$var reg 3 # i1 [2:0] $end
+$var reg 1 $ i2 $end
+$var integer 32 % i [31:0] $end
+$scope module circuit3_0 $end
+$var wire 3 & i1 [2:0] $end
+$var wire 1 $ i2 $end
+$var wire 1 ' x2 $end
+$var wire 1 ( x1 $end
+$var wire 1 ! sum1 $end
+$var wire 1 " cout1 $end
+$scope module fa_1 $end
+$var wire 1 ) cin $end
+$var wire 1 ' cout $end
+$var wire 1 * i0 $end
+$var wire 1 + i1 $end
+$var wire 1 ( sum $end
+$var wire 1 , t0 $end
+$var wire 1 - t1 $end
+$var wire 1 . t2 $end
+$upscope $end
+$scope module fa_2 $end
+$var wire 1 $ cin $end
+$var wire 1 " cout $end
+$var wire 1 ( i0 $end
+$var wire 1 ' i1 $end
+$var wire 1 ! sum $end
+$var wire 1 / t0 $end
+$var wire 1 0 t1 $end
+$var wire 1 1 t2 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+b0 &
+b0 %
+0$
+b0 #
+0"
+0!
+$end
+#10
+b1 %
+#20
+1"
+11
+1(
+1)
+0!
+b10 %
+b100 #
+b100 &
+1$
+#30
+1(
+0"
+1*
+0)
+1!
+01
+b11 %
+b1 #
+b1 &
+0$
+#40
+1/
+10
+1'
+1,
+1(
+1-
+1.
+1"
+1+
+1)
+1!
+11
+b100 %
+b111 #
+b111 &
+1$

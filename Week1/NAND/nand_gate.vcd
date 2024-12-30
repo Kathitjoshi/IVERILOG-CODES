@@ -1,0 +1,33 @@
+$date
+	Sat Aug 10 11:43:20 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module nand_gate $end
+$var wire 1 ! y $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0#
+0"
+1!
+$end
+#100
+1#
+#200
+0#
+1"
+#300
+0!
+1#
+#400
